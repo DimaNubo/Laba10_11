@@ -8,6 +8,6 @@ before_script:
 script:
   - cmake ../Laba10_11
   - make -j
-  - ./ListTest/ListTest
+  - ./bin/test_polynomial
 notifications:
   email: false
