@@ -1,0 +1,14 @@
+language: cpp
+compiler:
+  - gcc
+  - clang
+before_script:
+  - mkdir ../build
+  - cd ../build
+script:
+  - cmake ../Laba11_11
+  - make -j
+  - cd ./bin/
+  - ./bin/test_polish
+notifications:
+  email: false
