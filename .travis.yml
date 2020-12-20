@@ -9,6 +9,6 @@ script:
   - cmake ../Laba10_11
   - make -j
   - cd ./bin/
-  - ./bin/test_polish
+  - ./test_polish
 notifications:
   email: false
